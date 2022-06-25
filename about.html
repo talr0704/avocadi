@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>אודות-אבוקדי</title>
+    <meta name="description" content="avocadi" />
+    <meta name="keywords" content="avocado, about us, website" />
+    <meta name="author" content="tal rozen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  
+    <!-- fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Rubik:wght@300;400;550;600;700&display=swap" rel="stylesheet">
+    <!--favicon-->
+    <link rel="icon" href="imges/favicon.png" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+
+</head>
+<body>
+    <div id="container">
+        <header>
+            <a name="home"></a>
+            <nav id="mainNav" aria-label="main-nav">
+                <ul>
+                    <li>
+                        <a href="/index.html">בית</a>
+                    </li>
+                    <li>
+                        <a href="#">טיפוח</a>
+                        <ul id="beauty">
+                            <li><a href="/avocadi-face mask .html">מסכת פנים</a></li>
+                            <li class="NotActive"><a href="#">מסכת שיער</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">תזונה</a>
+                        <ul id="health">
+                            <li><a href="/avocadi-tips .html">טיפים</a></li>
+                            <li class="NotActive"><a href="#">מתכונים</a></li>
+                        </ul>
+                    </li>
+                    <li class="activeNAV">
+                        <a href="about.html">אודות</a>
+                    </li>
+                    <li>
+                        <a href="/siteMap.html">מפת האתר</a>
+                    </li>
+                    <li>
+                        <a href="/contactUs.html">צרו קשר</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </header>
+        <nav id="Breadcrumbs" aria-label="Breadcrumbs-nav">
+            <ol>
+                <li><a href="/index.html">דף הבית</a></li>
+                <li><a href="about.html">אודות</a> </li>
+            </ol>
+        </nav>
+        <main>
+            <article id="aticalfaceMask">
+                <section id="benfites">
+                    <h1>קצת על האתר</h1>
+
+                    <p>אתר אבוקדי נוצר מתוך אהבה גדולה לאבוקדו ורצון לחלוק את היתרונות הרבים שלו <br /> קהל היעד של אבוקדי הוא כל מי שאוהב את הפרי המיוחד הזה ומעוניין ללמוד ולהכיר אותו יותר.</p>
+                </section>
+                <section id="Ingredients">
+                    <h2>פיתוח</h2>
+                    <br />
+                    <p>
+                        האתר פותח על ידי טל רוזן במסגרת פרויקט לקורס 'פיתוח אתרי אינטרנט' בשנה א', תשפב.
+                    </p>
+                    <br />
+                    <p>האתר אופיין ועוצב לפי עקרונות של "עיצוב ממשק" ופותח ב- HTML ו-CSS3 תוך התחשבות בעקרונות "נגישות אתרים".<br></p>
+
+                </section>
+                <section id="orders">
+                    <h2>המסכים שפותחו באתר</h2>
+                    <div>
+                        <a href="index.html">בית</a>
+                        <a href="siteMap.html">מפת אתר</a>
+                        <a href="contactUs.html">צרו קשר</a>
+                        <a href="avocadi-tips .html">טיפים</a>
+                        <a href="avocadi-face mask .html">מסכת פנים</a>
+                        <a href="about.html">אודות</a>
+                    </div>
+                </section>
+                <div id="imageaboutUS"><img src="imges/aboutUS.png" alt="" /></div>
+            </article>
+            <footer>
+                <ul>
+                    <li class="footerLevel1"><a href="/index.html">בית</a></li>
+                    <li id="beautyfooter" class="footerLevel1">
+                        <a href="#">טיפוח</a>
+                        <ul>
+                            <li id="faceMaskFooter"><a href="avocadi-face mask .html">מסכת פנים</a></li>
+                            <li class="NotActive" id="hairMaskFooter"><a href="#">מסכת שיער</a></li>
+                        </ul>
+                    </li>
+                    <li id="healthfooter" class="footerLevel1">
+                        <a href="#">תזונה</a>
+                        <ul>
+                            <li id="tipsFooter"><a href="avocadi-tips .html">טיפים</a></li>
+                            <li class="NotActive" id="recpiesFooter"><a href="#">מתכונים</a></li>
+                        </ul>
+                    </li>
+                    <li class="footerLevel1"><a href="about.html">אודות</a></li>
+                    <li class="footerLevel1"><a href="siteMap.html">מפת האתר</a></li>
+                    <li class="footerLevel1"><a href="contactUs.html">צרו קשר</a></li>
+                </ul>
+
+
+                <div id="imgFooter">
+                    <img src="imges/avocadoFooter.png" alt="" />
+                </div>
+            </footer>
+        </main>
+    </div>
+</body>
+</html>
