@@ -20,7 +20,9 @@ h1, h2, h3,h5, h6, p, pre, a, div, span, input, label, li, ul, ol{
      width:auto;
      max-width:950px;
     }
-
+    main footer{
+        height:200px;
+    }
     #mainNav {
         height: 5px;
         width: auto;
@@ -43,7 +45,7 @@ h1, h2, h3,h5, h6, p, pre, a, div, span, input, label, li, ul, ol{
  
                 }
     .activeNAV {
-        background-image: url(/imges/avonavsmall.png);
+        background-image: url(imges/avonavsmall.png);
         background-repeat: no-repeat;
         background-position: left;
     }
@@ -415,14 +417,14 @@ h1, h2, h3,h5, h6, p, pre, a, div, span, input, label, li, ul, ol{
         opacity: 0;
     }
     #MAP #hiddenMedia {
-        opacity: 1;
+        display: block;
         position: relative;
         bottom: 815px;
         width: contain;
         height: max-content;
     }
     #MAP #hiddenMediaIMG img {
-        opacity: 1;
+        display: block;
         position: relative;
         bottom: 610px;
         width: 750px;
@@ -591,7 +593,7 @@ text-decoration:none;
 .activeNAV {
     background-size:contain;
     background-repeat:no-repeat;
-    background-image:url(/imges/nav.active.png);
+    background-image:url(imges/nav.active.png);
     background-position: center;
 }
     .activeNAV a {
@@ -1430,11 +1432,11 @@ input {
 
 }
 #hiddenMedia{
-    opacity:0;
+    display:none;
  
 }
 #hiddenMediaIMG img {
-    opacity: 0;
+    display:none;
 }
 #hiddenMedia a {
     font-size:21px;
