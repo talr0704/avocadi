@@ -593,7 +593,7 @@ text-decoration:none;
 .activeNAV {
     background-size:contain;
     background-repeat:no-repeat;
-    background-image:url(imges/nav.active.png);
+    background-image:url('../imges/nav.active.png');
     background-position: center;
 }
     .activeNAV a {
